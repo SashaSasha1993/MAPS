@@ -1,0 +1,20 @@
+table {
+    border: grey 3px solid;
+}
+
+th {
+    color: lightgrey;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: papayawhip;
+    border: grey 3px solid;
+}
+
+td {
+    text-align: center;
+    font-family: monospace;
+    border: grey 1px solid;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
